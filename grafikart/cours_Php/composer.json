@@ -1,0 +1,22 @@
+{
+    "name": "ndiack/cours_php",
+    "description": "concentre des cours php",
+    "authors": [
+        {
+            "name": "Ndiack Fall",
+            "email": "fallndiack1@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "class/"
+        }
+    },
+    "require": {
+        "erusev/parsedown": "^1.7",
+        "altorouter/altorouter": "^2.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.0"
+    }
+}
