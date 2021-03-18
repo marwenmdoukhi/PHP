@@ -1,0 +1,17 @@
+{
+    "name": "marwen/liv",
+    "authors": [
+        {
+            "name": "marwenmdoukhi",
+            "email": "marwenmdoukhi@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "class/"
+        }
+    },
+    "require": {
+        "erusev/parsedown": "^1.7"
+    }
+}
